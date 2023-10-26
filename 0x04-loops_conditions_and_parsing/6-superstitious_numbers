@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School" 10 times
+# Prints 1 to 20; "bad luck from China" the 4th,
+# "bad luck from Japan" the 9th, and "bad luck from Italy" the 17th
 
 num=1
 while [ $num -le 20 ]; do
