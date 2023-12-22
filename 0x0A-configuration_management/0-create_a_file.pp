@@ -1,8 +1,7 @@
 # Using puppet, create a file with below specifications
 
 file { '/tmp/school':
-  ensure  => file,
-  path    => '/tmp/school'
+  ensure  => 'present',
   content => 'I love Puppet',
   owner   => 'www-data',
   group   => 'www-data',
