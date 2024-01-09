@@ -16,8 +16,8 @@ frontend  najat-frontend
         default_backend najat-backend
 backend najat-backend
         balance roundrobin
-        server 63210-web-01 100.25.19.204:80 check
-        server 63210-web-02 54.157.159.85:80 check
+        server 440028-web-01 34.207.63.215:80 check
+        server 440028-web-02 100.25.14.38:80 check
 "
 echo "$server_config" | sudo tee -a /etc/haproxy/haproxy.cfg
 
