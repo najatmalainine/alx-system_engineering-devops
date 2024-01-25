@@ -1,1 +1,1 @@
-ssh -i ~/.ssh/school ubuntu@100.25.14.38
+ssh -i  /home/najat/ALX/key ubuntu@100.25.14.38
