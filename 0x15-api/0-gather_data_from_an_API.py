@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+"""
+Request from API; Return TODO list progress given employee ID
+"""
 import requests
 import sys
 
